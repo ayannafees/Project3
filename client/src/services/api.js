@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const API_URL = `http://localhost:8000`;
+const API_URL = `https://project3-three-lyart.vercel.app/`;
+// const API_URL = `http://localhost:8000`;
 
 const headers1 = {
     "Content-Type" : "multipart/form-data"
