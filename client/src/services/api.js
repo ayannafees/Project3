@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = `https://project3-three-lyart.vercel.app/`;
+const API_URL = `https://project3-backend.vercel.app/`;
 // const API_URL = `http://localhost:8000`;
 
 const headers1 = {
