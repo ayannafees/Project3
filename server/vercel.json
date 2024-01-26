@@ -2,20 +2,13 @@
     "version": 2,
     "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
     "routes": [
-      {
-        "src": "/image-url",
-        "dest": "./index.js",
-        "headers": {
-          "Access-Control-Allow-Origin": "*"
+        {
+            "src" : "/(.*)",
+            "dest" : "/",
+            "headers": {
+                "Access-Control-Allow-Origin" : "*"
+            }
         }
-      },
-      {
-        "src": "/(.*)",
-        "status": 404,
-        "headers": {
-          "Access-Control-Allow-Origin": "*"
-        }
-      }
     ]
-  }
+}
   
